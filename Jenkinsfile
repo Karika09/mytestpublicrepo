@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Karika09/mytestpublicrepo.git' // or use local repo
+                git branch: 'main', url: 'https://github.com/Karika09/mytestpublicrepo.git' // or use local repo
             }
         }
 
